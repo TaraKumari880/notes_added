@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-container{
+    float: left;
+    border-right: 2px solid rgb(214, 110, 110);
+    width:  60vw;
+    height: 150vh;
+}
+.submit {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .submit:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+.right-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
